@@ -1,8 +1,5 @@
 package org.example;
 
-import lombok.Getter;
-
-@Getter
 public class Address {
     private String cep;
     private String logradouro;
@@ -38,5 +35,40 @@ public class Address {
         this.gia = gia;
         this.ddd = ddd;
         this.siafi = siafi;
+    }
+
+    //Getters
+    public String getCep() {
+        return cep;
+    }
+    public String getLogradouro() {
+        return logradouro;
+    }
+    public String getComplemento() {
+        return complemento;
+    }
+    public String getLocalidade() {
+        return localidade;
+    }
+    public String getUf() {
+        return uf;
+    }
+    public String getEstado() {
+        return estado;
+    }
+    public String getRegiao() {
+        return regiao;
+    }
+    public String getIbge() {
+        return ibge;
+    }
+    public String getGia() {
+        return gia;
+    }
+    public int getDdd() {
+        return ddd;
+    }
+    public String getSiafi() {
+        return siafi;
     }
 }
